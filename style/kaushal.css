@@ -10,28 +10,38 @@ body {
 	   box-shadow: 0px 0px 40px #121212;
 	   -moz-border-radius: 5px;
 	   border-radius: 5px;
-	   top: 150px;
-	   background-color: #989898
+	   background-color: #989898;
+	   text-align: center;
+	   display: table;
+}
+
+#name_div p, #enter_div p {
+	  display: table-cell;
+  	  vertical-align: middle;
+  	  text-align: center;
 }
 
 #name_div {
 	  font-family: 'Trebuchet MS';
 	  font-size: 34pt;
-	  width: 300px;
-	  height: 150px;
+	  width: 240px;
+	  height: 240px;
 	  padding: 30px;
 	  position: absolute;
+	  z-index: 4;
 	  left: 0;
 }
 
 #enter_div {
 	   font-family: 'Engagement', cursive;
-	   font-size: 40pt;
-	   height: 150px;
-	   width: 200px;
-	   padding: 30px;
+	   font-size: 20pt;
+	   height: 40px;
+	   width: 40px;
+	   padding: 20px;
 	   position: absolute;
-	   left: 390;
+	   left: 320px;
+	   z-index: 5;
+	   top: 220px;
 }
 
 #container {
@@ -40,14 +50,18 @@ body {
 	   right: 0; left: 0;
 	   top: 0; bottom: 0;
 	   width: 800px;
-	   height: 600px;
+	   height: 500px;
 	   }
 
 
 #projects, #resume, #contact {
+	   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+	   font-size: 14pt;
+	   position: absolute;
+	   right: 0;
 	   visibility: hidden;
-	   width: 340px;
-	   height: 340px;
+	   width: 440px;
+	   height: 440px;
 	   overflow: scroll;
 	   background-color: #989898;
 	   box-shadow: 0px 0px 40px #121212;
@@ -62,8 +76,13 @@ body {
 	   font-family: 'Trebuchet MS';
 	   font-size: 14pt;
 	   position: fixed;
-	   top: 200px;
+	   width: 240px;
+	   height: 240px;
+	   padding: 30px;
 }
 
 /* link colors */
-
+a:link {color:#FF7766; text-decoration: none;}
+a:visited {color:#FF7766; text-decoration: none;}
+a:active {color:#FFDD00; text-decoration: none;}
+a:hover {color:#FF3300; text-decoration: none;}

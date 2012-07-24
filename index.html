@@ -1,5 +1,5 @@
 <!-- your home page! /-->
-
+<!DOCTYPE html>
 
 <html>
 
@@ -8,6 +8,12 @@
 
 <!-- link to style sheet /-->
 <link rel="stylesheet" type="text/css" href="style/kaushal.css" media="all">
+
+<!-- JS  /-->
+<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" media="all"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.js"></script>
+<script src="js/pop.js"></script>
 
 
 <!-- google web fonts /-->
@@ -20,11 +26,11 @@
 <div id="container">
 
   <div id="name_div">
-    Kaushal Parikh
+    <p>Kaushal Parikh</p>
   </div>
 
   <div id="enter_div">
-    enter
+    <p><a href="javascript:void(0)" onmousedown="enter_site()">enter</a></p>
   </div>
 
   <div id="projects">
@@ -46,9 +52,9 @@ At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praese
   </div>
 
   <div id="side_menu">
-    Apps & Projects<br/>
-    Resume<br/>
-    Contact<br/>
+    <a href="javascript:void(0)" onmousedown="display_content('projects')">Apps & Projects<a/><br/>
+    <a href="javascript:void(0)" onmousedown="display_content('resume')">Resume<a/><br/>
+    <a href="javascript:void(0)" onmousedown="display_content('contact')">Contact<a/><br/>
   </div>
 
 
