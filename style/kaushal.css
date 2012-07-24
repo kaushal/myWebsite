@@ -1,1 +1,69 @@
 /* your style sheet!! */
+
+body {
+     background-image: url('https://github.com/kaushalp88/myWebsite/raw/master/Wallpapers-room_com___Brown_Paper_by_Alexander-GG_1920x1200.jpeg');
+     background-color: #e2e2e2;
+}
+
+
+#name_div, #enter_div {
+	   box-shadow: 0px 0px 40px #121212;
+	   -moz-border-radius: 5px;
+	   border-radius: 5px;
+	   top: 150px;
+	   background-color: #989898
+}
+
+#name_div {
+	  font-family: 'Trebuchet MS';
+	  font-size: 34pt;
+	  width: 300px;
+	  height: 150px;
+	  padding: 30px;
+	  position: absolute;
+	  left: 0;
+}
+
+#enter_div {
+	   font-family: 'Engagement', cursive;
+	   font-size: 40pt;
+	   height: 150px;
+	   width: 200px;
+	   padding: 30px;
+	   position: absolute;
+	   left: 390;
+}
+
+#container {
+	   position: absolute;
+	   margin: auto;
+	   right: 0; left: 0;
+	   top: 0; bottom: 0;
+	   width: 800px;
+	   height: 600px;
+	   }
+
+
+#projects, #resume, #contact {
+	   visibility: hidden;
+	   width: 340px;
+	   height: 340px;
+	   overflow: scroll;
+	   background-color: #989898;
+	   box-shadow: 0px 0px 40px #121212;
+	   -moz-border-radius: 5px;
+	   border-radius: 5px;
+	   padding: 30px;
+}
+
+#side_menu {
+	   visibility: hidden;
+	   color: #dddddd;
+	   font-family: 'Trebuchet MS';
+	   font-size: 14pt;
+	   position: fixed;
+	   top: 200px;
+}
+
+/* link colors */
+
